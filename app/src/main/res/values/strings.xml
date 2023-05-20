@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Celcius Convertion</string>
+    <string name="temperature">Celcius Convertion adalah aplikasi untuk mengetahui hasil konversi suhu dalam Fahrenheit, Reamur, dan Kelvin dengan memasukkan derajat suhu Celcius yang akan diubah.</string>
+    <string name="input">Masukkan suhu °C</string>
+    <string name="convert">Hitung</string>
+    <string name="suhu_invalid">Suhu tidak boleh kosong.</string>
+    <string name="input_huruf">Inputan tidak boleh huruf!</string>
+    <string name="konversi_intro">Hasil Konversi</string>
+    <string name="fahrenheit">°F</string>
+    <string name="kelvin">°K</string>
+    <string name="reamur">°R</string>
+    <string name="fah">Fahrenheit : </string>
+    <string name="kel">Kelvin : </string>
+    <string name="rea">Reamur : </string>
+    <string name="share">Bagikan</string>
+    <string name="no_data">Belum ada data</string>
+    <string name="hapus_history">Hapus History</string>
+    <string name="history">History Pencarian</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="exit_dialog">Apakah anda yakin ingin keluar?</string>
+    <string name="konfirmasi_hapus">Anda yakin ingin menghapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="about_celcius">Anders Celsius adalah seorang astronom Swedia. Namanya paling dikenal sebagai pengusul skala Celsius pada tahun 1742.</string>
+</resources>

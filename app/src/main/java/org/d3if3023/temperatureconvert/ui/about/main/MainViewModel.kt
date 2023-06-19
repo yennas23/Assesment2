@@ -30,4 +30,5 @@ class MainViewModel (private val data: ConvertionDao) : ViewModel() {
     }
     fun getHasilKonversi(): LiveData<HasilKonversi?> = hasilKonversi
 
+
 }

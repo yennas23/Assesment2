@@ -60,12 +60,12 @@ class AboutFragment : Fragment(){
                 }
                 CelciusStatus.SUCCESS -> {
                     binding.progressBar.visibility = View.GONE
-                }
-                CelciusStatus.FAILED -> {
-                    binding.progressBar.visibility = View.GONE
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
                         requestNotificationPermission()
                     }
+                }
+                CelciusStatus.FAILED -> {
+                    binding.progressBar.visibility = View.GONE
                     binding.networkError.visibility = View.VISIBLE
                 }
             }

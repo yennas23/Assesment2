@@ -8,7 +8,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.create
 import retrofit2.http.GET
 
-private const val BASE_URL = "https://gist.githubusercontent.com/yennas23/3b4df10ae453f5fd1205eb7c29e7f6c8/raw/f40a1c9846699136876081d01f3c599415ff139f/"
+private const val BASE_URL = "https://raw.githubusercontent.com/yennas23/jsonAssesment/main/"
 
 private val moshi = Moshi.Builder()
     .add(KotlinJsonAdapterFactory())
@@ -21,7 +21,7 @@ private val retrofit = Retrofit.Builder()
 
 interface CelciusApiService {
 
-    @GET("Penemu.json")
+    @GET("penemu.json")
     suspend fun getData(): HasilPenemu
 }
 
@@ -31,7 +31,7 @@ object CelciusApi {
     }
 
     fun getCelciusUrl(gambar: String): String {
-        return "$BASE_URL$gambar"
+        return "$BASE_URL$gambar.jpeg"
     }
 }
 
